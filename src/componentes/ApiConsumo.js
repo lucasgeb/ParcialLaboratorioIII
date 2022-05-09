@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Colores from "./Colores";
+import './style.css';
 
 //Creación de Componente de clase. 
 export default class ApiConsumo extends Component {
@@ -26,7 +27,7 @@ export default class ApiConsumo extends Component {
   render() {
     return (
       <>
-        <h2>
+        <h2 className="card2" >
           Lista de Colores
         </h2>
         {this.state.colores.length === 0 ? (

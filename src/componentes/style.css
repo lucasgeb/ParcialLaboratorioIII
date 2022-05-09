@@ -1,39 +1,116 @@
-body {
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #3c484e;
-    font-family: 'Open Sans', sans-serif;
-  }
-  
-  .Header-main {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .Header a {
-    text-decoration: none;
-    color: #15302C;
-  }
-  
-  .Main {
-    padding: 10px;
-    grid-template-columns: minmax(auto, 976px);
-    display: grid;
-    justify-content: center;
-  }
-  
-  .Characters {
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 1.5rem;
-    grid-row-gap: 1.5em;
-    display: grid;
-  }
-  
-  .Characters-inner {
-    grid-template-columns: 1fr 2fr;
-    grid-gap: 1.5rem;
-    grid-row-gap: 1.5em;
-    display: grid;
-  }
+.card {
+  box-shadow: 5px 15px 60px rgb(0 0 0 / 55%);
+  max-width: 550px;
+  border: none;
+  border-radius: 8px;
+  background: url('../images/circles.png') no-repeat, linear-gradient(to right, #A74CF2, #617BFB);
+  min-height: 126px;
+  color: white;
+  padding-top: 33px;
+  padding-left: 60px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  margin-bottom: 100px;
+}
+.card:hover {
+  transform: scale(1.1);
+  transition-duration: 500ms;
+  box-shadow: 5px 15px 60px rgb(0 0 0 / 55%);
+  max-width: 550px;
+  border: none;
+  border-radius: 8px;
+  background: url('../images/circles.png') no-repeat, linear-gradient(to right, #8f3fcf, #4962df);
+  min-height: 126px;
+  color: white;
+  padding-bottom: 20px;
+  padding-left: 60px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  margin-bottom: 100px;
+}
+.row {
+  align-items: center;
+}
+.card2 {
+  border: none;
+  border-radius: 8px;
+  background: url('../images/circles.png') no-repeat, linear-gradient(to right, #A74CF2, #617BFB);
+  min-height: 126px;
+  color: white;
+  padding-top: 2rem;
+  padding-left: 60px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  margin-bottom: 100px;
+}
+.ColoresUser-Info {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 200px;
+}
+.Colores-Card {
+  max-height: 140px;
+  max-width: 520px;
+}
+.Colores-Card-Info {
+  padding-left: 0;
+  padding-right: 75px;
+  font-size: 18px;
+  text-align: left!important;
+  vertical-align: middle;
+}
+.Colores-Card-Info h1{
+  font-size: 23px;
+  color: white;
+  text-align: left!important;
+  font-family: 'Calibri';
+  color: white;
+  font-size: 24px;
+}
+.Colores-Card-Info p{
+  font-size: 11px;
+  color: white;
+}
+.Colores-Add {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  margin-bottom: 80px;
+  height: 60px;
+}
+
+.mx-auto {
+  padding-top: 20px;
+  margin-right: 25%;
+  border-radius: 10px;
+
+  margin-bottom: 78px;
+  min-height: 225px;
+  position: relative;
+}
+.col-6 {
+  width: 50%;
+  text-align: right;
+}
